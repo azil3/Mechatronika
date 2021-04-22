@@ -41,7 +41,7 @@ Adafruit_NeoPixel pixels(NUMPIXELS, NEOPIXEL_PIN, NEO_GRB + NEO_KHZ800);
 #define DELAYVAL 250
 uint8_t LED_r = 0;
 uint8_t LED_g = 150;
-uint8_t LED_b = 0;
+uint8_t LED_B =1 ;
 
 void startServer()
 {
